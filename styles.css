@@ -1,0 +1,42 @@
+/* RESET */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100svh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+header {
+	top: auto;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	width: min(calc(100% - 6rem), 1400px);
+    flex-wrap: wrap;
+}
+
+h2 {
+	font-size: 1.2rem;
+}
+
+#packedRects {
+	margin-right: auto;
+}
+
+#canvas {
+	margin-top: auto;
+	margin-bottom: 4rem;
+}
